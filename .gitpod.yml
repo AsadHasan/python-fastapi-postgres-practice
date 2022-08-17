@@ -3,4 +3,4 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: pip install -r requirements-dev.txt
+  - init: python3 -m venv venv && . ./venv/bin/activate && python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel && pip3 install --no-cache-dir -r requirements-dev.txt && git config --global --add safe.directory /workspace && pre-commit install-hooks
