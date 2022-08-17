@@ -1,10 +1,19 @@
 """Basic app."""
+from fastapi import FastAPI
+
+app = FastAPI()
 
 
-def main() -> None:
-    """Start app."""
-    print("")
+@app.get("/test")
+def get_test():
+    """Get single test."""
+    return {"name": "test"}
 
 
-if __name__ == "__main__":
-    main()
+# def main() -> None:
+#     """Start app."""
+#     print("")
+
+
+# if __name__ == "__main__":
+#     main()
