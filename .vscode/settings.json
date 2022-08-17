@@ -1,0 +1,23 @@
+{
+    "python.defaultInterpreterPath": "/workspace/python-fastapi-postgres-practice/venv/bin/python",
+    "python.formatting.blackPath": "/workspace/python-fastapi-postgres-practice/venv/bin/black",
+    "python.languageServer": "Pylance",
+    "python.linting.banditEnabled": true,
+    "python.linting.banditPath": "/workspace/python-fastapi-postgres-practice/venv/bin/bandit",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/workspace/python-fastapi-postgres-practice/venv/bin/flake8",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "/workspace/python-fastapi-postgres-practice/venv/bin/mypy",
+    "python.linting.prospectorEnabled": true,
+    "python.linting.prospectorPath": "/workspace/python-fastapi-postgres-practice/venv/bin/prospector",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestylePath": "/workspace/python-fastapi-postgres-practice/venv/bin/pycodestyle",
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstylePath": "/workspace/python-fastapi-postgres-practice/venv/bin/pydocstyle",
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylamaPath": "/workspace/python-fastapi-postgres-practice/venv/bin/pylama",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/workspace/python-fastapi-postgres-practice/venv/bin/pylint",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
